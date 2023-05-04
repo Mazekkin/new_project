@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>    
+    <head>
+        <title>Пример</title>
+    </head>
+    <body>
+        <style>
+            .highlight {
+                background-color: yellow;
+                }
+        </style>
+        
+        <p>This is an example of a simple HTML page with one paragraph.</p>
+
+        <p id="text">sdfsdfsdf</p>
+
+        <p class="block">This is an example of a simple block</p>
+        <p class="block">This is an example of a simple block111</p>       
+          
+        <input type="text" id="search"/><button onClick="search(id)" id="button">Подсветка</button>
+        
+        <p id="sometext">
+            Alongside HTML and CSS, JavaScript is one of the core technologies of the World Wide Web. JavaScript enables interactive web pages and is an essential part of web applications. The vast majority of websites use it for client-side page behavior, and all major web browsers have a dedicated JavaScript engine to execute it.(This excerpt was taken from Wikipedia)
+        </p>
+
+        <input type="text" id="search"/><button onClick="highlight(text)" id="button">Подсветка</button>
+
+        <p id="someText">
+            Alongside1 HTML and CSS, JavaScript is one of the core technologies of the World Wide Web. JavaScript enables interactive web pages and is an essential part of web applications. The vast majority of websites use it for client-side page behavior, and all major web browsers have a dedicated JavaScript engine to execute it.(This excerpt was taken from Wikipedia)
+        </p>
+
+        <!-- <button id="run">Run</button>
+        <pre>previous    this    actual delay</pre>
+        <div id="log"></div> -->
+
+        
+        <button id="run">Run</button>
+
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <td>Previous</td>
+                    <td>This</td>
+                    <td>Actual delay</td>
+                </tr>
+            </thead>
+            <tbody id="log"></tbody>
+        </table>
+
+    </body>
+</html>
+
+<script src="main.js"></script>
+<!DOCTYPE html>
